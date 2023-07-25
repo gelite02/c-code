@@ -1,0 +1,27 @@
+﻿生成启动时间为 2023/7/24 0:42:38。
+     1>项目“D:\code\计算存款本息和\计算存款本息和\计算存款本息和.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\计算存款本息和.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\VC2010\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt "存款本息和.cpp"
+         存款本息和.cpp
+     1>c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll : warning C4945: “ExtensionAttribute”: 无法从“c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll”导入符号: 因为“System::Runtime::CompilerServices::ExtensionAttribute”已从另一个程序集“mscorlib”导入
+                 c:\windows\microsoft.net\framework\v4.0.30319\mscorlib.dll : 参见“System::Runtime::CompilerServices::ExtensionAttribute”的声明
+                 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+                 在导入类型“System.Runtime.CompilerServices.ExtensionAttribute”(从程序集“System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”中导入)时发生此诊断。
+     1>存款本息和.cpp(9): warning C4305: “=”: 从“double”到“float”截断
+     1>存款本息和.cpp(10): warning C4305: “=”: 从“double”到“float”截断
+     1>存款本息和.cpp(11): warning C4305: “=”: 从“double”到“float”截断
+       Link:
+         d:\VC2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\计算存款本息和\Debug\计算存款本息和.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\计算存款本息和.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\code\计算存款本息和\Debug\计算存款本息和.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\计算存款本息和\Debug\计算存款本息和.lib" /MACHINE:X86 "Debug\存款本息和.obj"
+         计算存款本息和.vcxproj -> D:\code\计算存款本息和\Debug\计算存款本息和.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\code\计算存款本息和\Debug\计算存款本息和.exe;#1" /manifest "Debug\计算存款本息和.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\计算存款本息和.unsuccessfulbuild”。
+         正在对“Debug\计算存款本息和.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\code\计算存款本息和\计算存款本息和\计算存款本息和.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.12
